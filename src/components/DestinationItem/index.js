@@ -5,10 +5,10 @@ const DestinationItemList = props => {
   const {name, imgUrl} = destinationsDetailes
 
   return (
-    <div className="list-container">
+    <li className="list-container">
       <img className="image" src={imgUrl} alt={name} />
       <p className="name">{name}</p>
-    </div>
+    </li>
   )
 }
 export default DestinationItemList
